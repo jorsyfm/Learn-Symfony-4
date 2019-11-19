@@ -29,6 +29,8 @@ class ArticleController extends AbstractController
             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis tempora cum facilis ea corporis obcaecati earum provident repellendus omnis sequi nesciunt assumenda magnam inventore repudiandae pariatur quam, eius modi tempore.'
         ];
 
+        dump($slug, $this);
+
         // return new Response(sprintf(
         //     'Future page to show the article: %s',
         //     $slug
